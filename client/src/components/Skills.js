@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaJava, FaPython, FaDatabase } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaJava, FaPython } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiJavascript, SiCplusplus, SiMysql } from 'react-icons/si';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
