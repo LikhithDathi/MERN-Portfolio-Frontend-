@@ -32,7 +32,7 @@ const Contact = () => {
     setStatus('Sending...');
     
     try {
-      await axios.post('http://localhost:5000/api/contact', formData);
+      await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/contact`, formData);
       setStatus('Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
       
