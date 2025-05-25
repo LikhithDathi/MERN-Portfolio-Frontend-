@@ -29,7 +29,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a 
-              href="likhithdathi@gmail.com" 
+              href="mailto:likhithdathi@gmail.com" 
               className="social-icon"
               aria-label="Email"
             >
